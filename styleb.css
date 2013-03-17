@@ -1,0 +1,183 @@
+/*
+* Default styles
+*/
+@media screen {
+
+html { 
+	background-image:url('black_mamba.png');
+	background-color:#333;
+	}
+	
+body {
+	background-color:#ffd;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+header {
+	background-color:#5dc;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+}
+
+nav {
+
+	background-color:#5dc;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+}
+
+a {
+	color:#000;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+img {
+	padding: 1em;
+	float:right;
+}
+
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.83em;
+	padding:1em;
+}
+
+p:last-of-type {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font-family: 'Rufina', serif;
+	font-size:1.5em;
+}
+
+h2{
+	font-family: 'Rufina', serif;
+	font-size:1.17em;
+	padding:1em;
+}
+
+h3{
+	font-family: 'Rufina', serif;
+	font-size:1em;
+	padding:1em;
+}
+
+blockquote {
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+}
+
+ul {
+	padding:0px;
+	margin:0px;
+	list-style-type:none;	
+}
+
+ul li {
+	display:inline;
+}
+
+
+ol li {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.83em;
+}
+
+footer {
+	background-color:#5dc;
+	text-align:right;
+	font-family: 'Rufina', serif;
+	border-style:solid;
+	border-width:1px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+}
+
+/*
+* 300px and up
+*/
+@media screen and (min-width: 300px) {
+
+body {
+	width:100%;
+}
+
+h1 {
+	font-size:1.17em;
+}
+
+h2 { 
+	font-size:1em;
+}
+
+h3 {
+	font-size:.83em;
+}
+
+p {
+	font-size:.75em;
+}
+
+li {
+	font-size:.75em;
+}
+
+}
+
+/*
+* 600px and up, the default setting
+*/
+@media screen and (min-width: 600px) {
+
+img {
+	float:left;
+}
+
+}
+
+
+/*
+* 768px and up
+*/
+@media screen and (min-width: 768px) {
+
+body {
+	width:90%;
+}
+
+}
+
+
+/*
+* 960px and up
+*/
+@media screen and (min-width: 960px) {
+
+body {
+	width:864px;
+}
+
+h1 {
+	font-size:2em;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+h3 {
+	font-size:1.17em;
+}
+
+p {
+	font-size:1.0em;
+}
+
+}
